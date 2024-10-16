@@ -45,20 +45,7 @@
 - Participants that successfully complete all stages earn shields equal to the number of stages in the quest.
 - The game ends when one or more players accumulate 7 shields, and the winner(s) are announced.
 
-## Commit Structure
-
-- **R-TEST Commits**: For each responsibility, create a commit that includes the test cases used to validate that responsibility. Name each test using the format `RESP-x-test-y`.
-- **R-CODE Commits**: After each R-TEST commit, submit an R-CODE commit with the implementation needed to pass the tests.
-- **A-TEST Commits**: Implement acceptance tests for specific paths through each use case and commit them with descriptions of the paths being tested.
-
 ## Testing
 
-- Automated tests should be created to validate individual responsibilities (R-TEST) and sequences of use cases (A-TEST).
-- Acceptance testing is done to ensure that the entire game flow works as intended, including deck setup, card distribution, quest handling, and win conditions.
+- run game_of_quests_test.py
 
-## Repository and Submission
-
-- Name your repository: `A1-<YourLastName>-<YourFirstName>-<YourStudentNumber>`.
-- Include all commits (R-TEST, R-CODE, A-TEST) to provide a comprehensive history of development.
-- Record a video showing the game being played and all tests running successfully.
-- Submit the correction grid, responsibilities table, and the link to your repository.
